@@ -1,0 +1,65 @@
+function validateForm() {
+    // Obtener los valores de los campos
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+    const feedback = document.getElementById("feedback");
+
+    // Limpiar mensaje de feedback
+    feedback.innerText = "";
+
+    // Verificar si los campos están vacíos
+    if (name === "" || email === "" || message === "") {
+        feedback.innerText = "Por favor, completa todos los campos.";
+        return false; // Evita que el formulario se envíe
+    }
+
+    // Verificar formato del correo electrónico
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    if (!emailPattern.test(email)) {
+        feedback.innerText = "Por favor, ingresa un correo electrónico válido.";
+        return false; // Evita que el formulario se envíe
+    }
+
+    // Si todos los campos son válidos, muestra mensaje de éxito
+    feedback.innerText = "Formulario enviado correctamente.";
+    feedback.style.color = "green";
+    return false; // Cambia a "true" para habilitar el envío
+}
+
+let indiceActual = 0;
+const textos = [
+    "Texto para la imagen 1",
+    "Texto para la Imagen 2",
+    "Texto para la Imagen 3",
+    "Texto para la Imagen 4"
+];
+
+function actualizarTexto() {
+    const textoElemento = document.getElementById('texto-carrusel');
+    textoElemento.classList.remove('texto-activo'); // Quita la animación actual
+    setTimeout(() => {
+        textoElemento.textContent = textos[indiceActual]; // Cambia el texto
+        textoElemento.classList.add('texto-activo'); // Añade la animación
+    }, 1000); // Pequeño retraso para suavizar la transición
+}
+
+function navegar(direccion) {
+    const contenedor = document.querySelector('.carrusel');
+    const totalItems = document.querySelectorAll('.carrusel .imagen').length;
+
+    // Incrementar o decrementar el índice
+    indiceActual = (indiceActual + direccion + totalItems) % totalItems;
+    contenedor.style.transform = `translateX(-${indiceActual * 100}%)`;
+    
+    // Actualizar el texto
+    actualizarTexto();
+}
+
+// Iniciar el desplazamiento automático
+setInterval(function() {
+    navegar(1); // Avanzar cada 5 segundos
+}, 5000);
+
+// Inicializar el texto para la primera imagen
+actualizarTexto();

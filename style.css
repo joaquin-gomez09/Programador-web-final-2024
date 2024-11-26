@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Estilos del encabezado */
+.header {
+  background: #35424a;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px 20px;
+  transition: background 0.3s;
+}
+
+.navLink:hover {
+  background: #e8491d;
+}
+
+/* Estilos del contenedor */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de las secciones */
+.about-us {
+  margin: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #35424a;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-left: 5px solid #35424a;
+}
+
+h3 {
+  color: #35424a;
+  margin-bottom: 10px;
+}
+
+/* Estilos de la lista de valores */
+.values ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Estilos para los miembros del equipo */
+.team-member {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+.team-member img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.team-member h4 {
+  margin-right: 12px;
+  color: #35424a;
+}
+
+/* Estilos del pie de página */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #35424a;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

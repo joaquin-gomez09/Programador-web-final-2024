@@ -1,0 +1,106 @@
+/* Contenedor de Servicios */
+.contenedor-servicios {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los contenedores */
+    margin: 0 40px 50px; /* Espacio en los márgenes derecho e izquierdo */
+}
+/* Estilo para el h2 del principio */
+.h2-servicios {
+    margin: 60px 0 80px 0; /* Márgenes superior e inferior */
+    font-size: 47px; /* Tamaño de la fuente */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Estilos para las imágenes de los servicios */
+.img-html5, .img-css3, .img-js {
+    width: 200px; /* Ajusta el ancho fijo para las imágenes */
+    height: 150px; /* Ajusta la altura fija para las imágenes */
+    margin-bottom: 40px; /* Añade espacio en la parte inferior */
+}
+
+/* Estilo para las tarjetas */
+.card {
+    width: 100%; /* Ancho completo de la tarjeta */
+    height: 100%; /* Altura completa de la tarjeta */
+    background-color: #fff; /* Color de fondo para la tarjeta */
+    border-radius: 5px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para efectos */
+}
+
+/* Define las propiedades de las caras de la tarjeta */
+.card-face {
+    position: absolute; /* Posición absoluta para superponer las caras */
+    width: 100%; /* Ancho completo de la tarjeta */
+    height: 100%; /* Altura completa de la tarjeta */
+    backface-visibility: hidden; /* Oculta la cara trasera al rotar */
+    display: flex; /* Uso de flexbox para alinear el contenido */
+    align-items: center; /* Alinea el contenido horizontalmente */
+    justify-content: center; /* Alinea el contenido verticalmente */
+    padding: 10px; /* Ajusta el relleno interno */
+}
+/* Centrar el contenido de las listas dentro de las tarjetas */
+.card-face .lista-servicios {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    list-style: none; /* Elimina el estilo de lista predeterminado */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 5px 0; /* Reduce el margen superior e inferior */
+}
+
+/* Alinear el texto de las listas al centro */
+.lista-servicios li {
+    text-align: center; /* Centra el texto de los elementos de la lista */
+    margin: 5px 0; /* Reduce el margen entre los elementos de la lista */
+}
+
+
+/* Estilo para la cara frontal de la tarjeta */
+.front {
+    background-color: #f1c40f; /* Color de fondo de la cara frontal (amarillo) */
+    color: #0d42ff; /* Color del texto de la cara frontal */
+    font-weight: lighter;
+    border-radius: 10%; /* Esquinas redondeadas */
+    display: flex; /* Uso de flexbox para alinear el contenido */
+    align-items: center; /* Alinea el contenido horizontalmente */
+    justify-content: center; /* Alinea el contenido verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+/* Estilo para la cara trasera de la tarjeta */
+.back {
+    background-color: #3498db; /* Color de fondo de la cara trasera (azul) */
+    color: white; /* Color del texto de la cara trasera */
+    transform: rotateY(180deg); /* Rota la cara trasera 180 grados para estar oculta inicialmente */
+    border-radius: 10%; /* Esquinas redondeadas */
+    display: flex; /* Uso de flexbox para alinear el contenido */
+    align-items: center; /* Alinea el contenido horizontalmente */
+    justify-content: center; /* Alinea el contenido verticalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+/* Estilo para la tarjeta */
+.card-curso {
+    width: 200px; /* Ajusta el ancho de la tarjeta */
+    height: 300px; /* Ajusta la altura de la tarjeta */
+    position: relative; /* Posición relativa para manejar la rotación */
+    transform-style: preserve-3d; /* Mantiene la transformación 3D */
+    transition: transform 0.6s; /* Transición suave para la transformación */
+    margin: 0; /* Quita el margen adicional de las tarjetas */
+}
+
+/* Contenedor de tarjetas */
+.servicios {
+    display: flex; /* Utiliza flexbox para organizar los elementos en fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los contenedores */
+    flex-wrap: nowrap; /* No permite que las tarjetas se ajusten en varias líneas */
+}
+
+/* Rota la tarjeta cuando el cursor pasa por encima del contenedor */
+.curso:hover .card-curso {
+    transform: rotateY(180deg); /* Rota la tarjeta 180 grados */
+}
