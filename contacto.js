@@ -8,7 +8,6 @@ const contactoSchema = new mongoose.Schema({
   fecha: { type: Date, default: Date.now }
 });
 
-// Creamos el modelo con el esquema
 const Contacto = mongoose.model('Contacto', contactoSchema);
 
 module.exports = Contacto;
