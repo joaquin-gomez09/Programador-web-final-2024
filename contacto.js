@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-// Definimos el esquema para los datos del formulario
 const contactoSchema = new mongoose.Schema({
   nombre: { type: String, required: true },
   email: { type: String, required: true },
