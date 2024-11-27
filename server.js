@@ -6,10 +6,15 @@ require('dotenv').config();  // Para cargar las variables de entorno
 const app = express();
 const port = process.env.PORT || 3000;
 
+<<<<<<< HEAD
 // Configuración de middleware para el manejo de archivos estáticos
 app.use(express.static(__dirname));
 
 // Ruta para servir el archivo index.html
+=======
+app.use(express.static(__dirname));
+
+>>>>>>> ddf2265741c494d2000b13c2bd18f196ed789143
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));  // Envía el archivo HTML cuando se accede a la raíz
 });
