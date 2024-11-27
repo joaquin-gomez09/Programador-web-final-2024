@@ -61,7 +61,7 @@ Asegúrate de tener configurada tu base de datos correctamente. Si estás usando
 ### 5. Iniciar el Servidor
 Para iniciar el servidor, ejecuta el siguiente comando:
 ```
-npm start
+npm run dev
 ```
 
 Este comando ejecutará el servidor de Node.js. Si todo está configurado correctamente, deberías ver un mensaje en la terminal que indica que el servidor está funcionando y escuchando en un puerto, por ejemplo:
