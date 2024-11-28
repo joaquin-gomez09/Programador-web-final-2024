@@ -87,6 +87,6 @@ Para probar el formulario se encuentra en <a> contacto.html </a>
 
 • Juan Koubas: Autenticacion y seguridad,  despliegue y optimizacion
 
-• Carlos Aguilar: Intercatividad con java, promoción y análisis.
+• Carlos Aguilar: Interactividad con java, promoción y análisis.
 
 • Joaquin Gomez: Servidor y base de datos.
