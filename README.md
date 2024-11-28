@@ -43,7 +43,7 @@ Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas:
 
 - **Node.js**: Para ejecutar el servidor backend.
 - **npm** (Node Package Manager): Para gestionar las dependencias del proyecto.
-- **Base de datos**: MongoDB o MySQL, dependiendo de cómo se haya configurado.
+- **Base de datos**: MongoDB.
 
 ## Instalación y Activación del Servidor
 
