@@ -1,6 +1,6 @@
 # Proyecto Web - Programador Web Final 2024
 
-Este es un proyecto web desarrollado con Node.js, Express, y una base de datos. Su objetivo es crear una página web funcional que permita mostrar servicios, portafolio y contacto, con un formulario de contacto que se conecta a una base de datos para almacenar los mensajes enviados.
+Este es un proyecto web desarrollado con Node.js, Express, y MongoDB como base de datos. Su objetivo es crear una página web funcional que permita mostrar servicios, portafolio y contacto, con un formulario de contacto que se conecta a una base de datos para almacenar los mensajes enviados.
 
 ## Descripción
 
@@ -22,19 +22,12 @@ Este proyecto tiene como finalidad la creación de un sitio web profesional con 
   
 - **Backend**:
   - Node.js (Ejecuta el servidor)
-  
   - Body-parserbody-parser (Para analizar el cuerpo de las solicitudes HTTP)
-  
   - Cors (Maneja las solicitudes entre diferentes dominios)
-  
   - Dotenv: (Carga variables de entorno)
-  
   - Express (Framework para crear aplicaciones web y APIs)
-  
   - Mongoose (Facilita la interacción con MongoDB.)
-  
   - Nodemon (Reinicia automáticamente la aplicación durante el desarrollo.)
-  
   - Base de datos (MongoDB community server)
 
 ## Requisitos previos
