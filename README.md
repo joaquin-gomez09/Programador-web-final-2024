@@ -28,6 +28,7 @@ Este proyecto tiene como finalidad la creación de un sitio web profesional con 
   - Express (Framework para crear aplicaciones web y APIs)
   - Mongoose (Facilita la interacción con MongoDB.)
   - Nodemon (Reinicia automáticamente la aplicación durante el desarrollo.)
+  - Nodemailer (Para enviar correos electronicos)
   - Base de datos (MongoDB community server)
 
 ## Requisitos previos
