@@ -21,9 +21,21 @@ Este proyecto tiene como finalidad la creación de un sitio web profesional con 
   - FontAwesome (para iconos)
   
 - **Backend**:
-  - Node.js
-  - Express
-  - Base de datos (MongoDB o MySQL según configuración)
+  - Node.js (Ejecuta el servidor)
+  
+  - Body-parserbody-parser (Para analizar el cuerpo de las solicitudes HTTP)
+  
+  - Cors (Maneja las solicitudes entre diferentes dominios)
+  
+  - Dotenv: (Carga variables de entorno)
+  
+  - Express (Framework para crear aplicaciones web y APIs)
+  
+  - Mongoose (Facilita la interacción con MongoDB.)
+  
+  - Nodemon (Reinicia automáticamente la aplicación durante el desarrollo.)
+  
+  - Base de datos (MongoDB community server)
 
 ## Requisitos previos
 
@@ -76,6 +88,9 @@ Abre tu navegador y ve a la dirección que aparece en la terminal, usualmente ht
 ### Autores
 
 • Patricia Sosa: Diseño con HTML y CSS
+
 • Juan Koubas: Autenticacion y seguridad,  despliegue y omptimizacion
+
 • Carlos Aguilar: Intercatividad con java, promoción y análisis.
+
 • Joaquin Gomez: Servidor y base de datos.
