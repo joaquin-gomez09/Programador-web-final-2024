@@ -85,7 +85,7 @@ Para probar el formulario se encuentra en <a> contacto.html </a>
 
 • Patricia Sosa: Diseño con HTML y CSS
 
-• Juan Koubas: Autenticacion y seguridad,  despliegue y omptimizacion
+• Juan Koubas: Autenticacion y seguridad,  despliegue y optimizacion
 
 • Carlos Aguilar: Intercatividad con java, promoción y análisis.
 
