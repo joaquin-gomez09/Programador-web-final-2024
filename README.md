@@ -1,6 +1,6 @@
 # Proyecto Web - Programador Web Final 2024
 
-Este es un proyecto web desarrollado con Node.js, Express, y MongoDB como base de datos. Su objetivo es crear una página web funcional que permita mostrar servicios, portafolio y contacto, con un formulario de contacto que se conecta a una base de datos para almacenar los mensajes enviados.
+Este es un proyecto web desarrollado con Node.js, Express, y MongoDB como base de datos. Su objetivo es crear una página web funcional que permita mostrar servicios, portafolio y contacto, con un formulario de contacto que se conecta a una base de datos para almacenar los mensajes enviados y tambien enviar un mail a la cuenta del usuario informando que su mensaje fue recibido.
 
 ## Descripción
 
@@ -77,6 +77,8 @@ Servidor corriendo en http://localhost:3000
 
 ### 6. Acceder a la Página Web
 Abre tu navegador y ve a la dirección que aparece en la terminal, usualmente http://localhost:3000. Allí podrás ver la página web en funcionamiento.
+
+Para probar el formulario se encuentra en <a> contacto.html </a> 
 
 ### Autores
 
