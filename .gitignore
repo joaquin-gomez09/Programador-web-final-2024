@@ -1,0 +1,12 @@
+# Ignorar el archivo .env
+.env
+
+# Ignorar node_modules (dependencias de Node.js)
+node_modules/
+
+# Ignorar los logs
+*.log
+
+# Ignorar carpetas y archivos del sistema
+.DS_Store
+Thumbs.db
