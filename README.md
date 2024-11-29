@@ -83,6 +83,8 @@ Para probar el formulario se encuentra en <a> contacto.html </a>
 
 ### Autores
 
+• Sergio Pardo: Jefe de equipo
+
 • Patricia Sosa: Diseño con HTML y CSS
 
 • Juan Koubas: Autenticacion y seguridad,  despliegue y optimizacion
